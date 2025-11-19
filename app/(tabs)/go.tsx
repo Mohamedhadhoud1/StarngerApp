@@ -1,6 +1,6 @@
-// screens/HomeScreen.tsx
-import { NativeStackScreenProps } from "@react-navigation/native-stack";
+// pages/go.tsx
 import { Audio } from "expo-av";
+import { useRouter } from "expo-router";
 import React, { useEffect, useRef, useState } from "react";
 import { FlatList, Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import areasData from "../../assets/areas/areas.json";
@@ -11,14 +11,9 @@ type Place = {
   type: "street" | "transport" | "area" | "city" | "landmark";
 };
 
-type RootStackParamList = {
-  HomeScreen: undefined;
-  RoutesScreen: { from: string; to: string };
-};
+export default function GoScreen() {
+  const router = useRouter();
 
-type Props = NativeStackScreenProps<RootStackParamList, "HomeScreen">;
-
-export default function HomeScreen({ navigation }: Props) {
   const [fromText, setFromText] = useState<string>("");
   const [toText, setToText] = useState<string>("");
   const [fromSuggestions, setFromSuggestions] = useState<Place[]>([]);
@@ -62,11 +57,6 @@ export default function HomeScreen({ navigation }: Props) {
     if (toText.length > 0 && !toSelected) setToSuggestions(filterSuggestions(toText));
     else setToSuggestions([]);
   }, [toText, toSelected]);
-
-  const handleRouteSearch = () => {
-    if (!fromText || !toText) return alert("Please enter both From and To");
-    navigation.navigate("RoutesScreen", { from: fromText, to: toText });
-  };
 
   const handleSelectSuggestion = (
     name: string,
@@ -203,7 +193,8 @@ export default function HomeScreen({ navigation }: Props) {
 
   return (
     <View className="flex-1 p-4 bg-white">
-      <View className="flex-row items-center space-x-2 mt-8">
+      {/* From input */}
+      <View className="flex-row-reverse items-center space-x-2 mt-8">
         <Text className="text-2xl font-bold text-purple-600 text-right flex-1">انت فين؟</Text>
       </View>
       {renderInput(
@@ -216,15 +207,15 @@ export default function HomeScreen({ navigation }: Props) {
         "اكتب مكانك الحالي"
       )}
 
+      {/* To input with image */}
       <View className="flex-row-reverse items-center mt-6">
         <Text className="text-2xl font-bold text-purple-600 text-right mr-2">
           علي فين العزم؟
         </Text>
         <Image
           source={require("../../assets/images/علي فين العزم.jpeg")}
-          className="w-10 h-10 rounded-full mr-2"
+          className="w-10 h-10 rounded-full"
         />
-
       </View>
       {renderInput(
         toText,
@@ -237,9 +228,13 @@ export default function HomeScreen({ navigation }: Props) {
         true
       )}
 
+      {/* Navigate to routes page */}
       <TouchableOpacity
         className="bg-purple-500 p-4 rounded-xl mt-6 items-center shadow-lg"
-        onPress={handleRouteSearch}
+        onPress={() => {
+          if (!fromText || !toText) return alert("Please enter both From and To");
+          router.push(`/pages/routes?from=${encodeURIComponent(fromText)}&to=${encodeURIComponent(toText)}`);
+        }}
       >
         <Text className="text-white font-bold text-lg">شوف الطرق</Text>
       </TouchableOpacity>
