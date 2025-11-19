@@ -1,0 +1,885 @@
+{
+    "القاهرة": [
+      {
+        "id": "salah-salem",
+        "name": "شارع صلاح سالم",
+        "type": "street"
+      },
+      {
+        "id": "tayaran",
+        "name": "شارع الطيران",
+        "type": "street"
+      },
+      {
+        "id": "khalifa-maamoun",
+        "name": "شارع الخليفة المأمون",
+        "type": "street"
+      },
+      {
+        "id": "gesh-street",
+        "name": "شارع الجيش",
+        "type": "street"
+      },
+      {
+        "id": "ramsees-street",
+        "name": "شارع رمسيس",
+        "type": "street"
+      },
+      {
+        "id": "galaa-street",
+        "name": "شارع الجلاء",
+        "type": "street"
+      },
+      {
+        "id": "autostrad",
+        "name": "الأوتوستراد (طريق النصر)",
+        "type": "street"
+      },
+      {
+        "id": "ahram-street",
+        "name": "شارع الهرم",
+        "type": "street"
+      },
+      {
+        "id": "saad-zaghloul-st",
+        "name": "شارع وضريح سعد زغلول",
+        "type": "street"
+      },
+      {
+        "id": "safeya-zaghloul-st",
+        "name": "شارع صفية زغلول",
+        "type": "street"
+      },
+      {
+        "id": "ismail-abaza-st",
+        "name": "شارع إسماعيل أباظة",
+        "type": "street"
+      },
+      {
+        "id": "mansour-st",
+        "name": "شارع منصور",
+        "type": "street"
+      },
+      {
+        "id": "abbas-akkad",
+        "name": "شارع عباس العقاد",
+        "type": "street"
+      },
+      {
+        "id": "gezeiret-el-arab",
+        "name": "شارع جزيرة العرب",
+        "type": "street"
+      },
+      {
+        "id": "makram-ebeid",
+        "name": "شارع مكرم عبيد",
+        "type": "street"
+      },
+      {
+        "id": "el-marghany",
+        "name": "شارع الميرغني",
+        "type": "street"
+      },
+      {
+        "id": "stop-ramses",
+        "name": "موقف رمسيس",
+        "type": "transport"
+      },
+      {
+        "id": "stop-aboud",
+        "name": "موقف عبود",
+        "type": "transport"
+      },
+      {
+        "id": "stop-salam",
+        "name": "موقف السلام (مدينة السلام)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-marg-new",
+        "name": "المرج الجديدة (محطة مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-marg-old",
+        "name": "المرج القديمة (محطة مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-shobra-metro",
+        "name": "شبرا الخيمة (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-attaba-metro",
+        "name": "العتبة (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-sadat",
+        "name": "السادات (مترو التحرير تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-gamaal-abdelnasser",
+        "name": "جمال عبد الناصر (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-mounib",
+        "name": "المنيب (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-dokki",
+        "name": "الدقي (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-maalek-saleh",
+        "name": "الملك الصالح (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-helwan",
+        "name": "حلوان (محطة مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-sayeda-zeinab-metro",
+        "name": "السيدة زينب (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-abbasiya",
+        "name": "العباسية (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-fair",
+        "name": "أرض المعارض (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-nozha",
+        "name": "النزهة (محطة مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-shouhadaa",
+        "name": "الشهداء (مترو تبادلي رمسيس)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-opera",
+        "name": "الأوبرا (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-mari-gorgees",
+        "name": "مار جرجس (مترو - مصر القديمة)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-el-qubba",
+        "name": "كوبري القبة (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-gamet-el-qahera",
+        "name": "جامعة القاهرة (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-kitkat",
+        "name": "الكيت كات (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-safaa-hegazy",
+        "name": "صفاء حجازي (مترو - الزمالك)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-hisham-barakat",
+        "name": "هشام بركات (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-adly-mansour",
+        "name": "عدلي منصور (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-haroun",
+        "name": "هارون (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-alf-maskan",
+        "name": "ألف مسكن (مترو)",
+        "type": "transport"
+      },
+      {
+        "id": "stop-giza-metro",
+        "name": "الجيزة (مترو تبادلي)",
+        "type": "transport"
+      },
+      {
+        "id": "al-fath-mosque",
+        "name": "مسجد الفتح برمسيس",
+        "type": "landmark"
+      },
+      {
+        "id": "elasaf",
+        "name": "الإسعاف (ميدان)",
+        "type": "area"
+      },
+      {
+        "id": "souq-kahraba-ataba",
+        "name": "سوق الكهرباء بالعتبة",
+        "type": "landmark"
+      },
+      {
+        "id": "el-qalaa",
+        "name": "القلعة",
+        "type": "area"
+      },
+      {
+        "id": "fom-el-khalig",
+        "name": "فم الخليج",
+        "type": "area"
+      },
+      {
+        "id": "baba-el-shaareya",
+        "name": "باب الشعرية",
+        "type": "area"
+      },
+      {
+        "id": "abdeen-palace",
+        "name": "قصر عابدين",
+        "type": "landmark"
+      },
+      {
+        "id": "madinet-nasr",
+        "name": "مدينة نصر",
+        "type": "area"
+      },
+      {
+        "id": "masr-gdida",
+        "name": "مصر الجديدة",
+        "type": "area"
+      },
+      {
+        "id": "heliopolis",
+        "name": "هليوبوليس",
+        "type": "area"
+      },
+      {
+        "id": "nozha",
+        "name": "النزهة",
+        "type": "area"
+      },
+      {
+        "id": "ain-shams",
+        "name": "عين شمس",
+        "type": "area"
+      },
+      {
+        "id": "marg",
+        "name": "المرج",
+        "type": "area"
+      },
+      {
+        "id": "mataria",
+        "name": "المطرية",
+        "type": "area"
+      },
+      {
+        "id": "salam-awwal",
+        "name": "حي السلام أول (السلام 1)",
+        "type": "area"
+      },
+      {
+        "id": "salam-thany",
+        "name": "حي السلام ثان (السلام 2)",
+        "type": "area"
+      },
+      {
+        "id": "el-amireya",
+        "name": "الأميرية",
+        "type": "area"
+      },
+      {
+        "id": "el-zawya-el-hamra",
+        "name": "الزاوية الحمراء",
+        "type": "area"
+      },
+      {
+        "id": "shrouk",
+        "name": "مدينة الشروق",
+        "type": "city"
+      },
+      {
+        "id": "badr",
+        "name": "مدينة بدر",
+        "type": "city"
+      },
+      {
+        "id": "obour",
+        "name": "مدينة العبور",
+        "type": "city"
+      },
+      {
+        "id": "tagamoa1",
+        "name": "التجمع الأول",
+        "type": "area"
+      },
+      {
+        "id": "tagamoa5",
+        "name": "التجمع الخامس",
+        "type": "area"
+      },
+      {
+        "id": "qatameya",
+        "name": "القطامية",
+        "type": "area"
+      },
+      {
+        "id": "mokatam",
+        "name": "المقطم",
+        "type": "area"
+      },
+      {
+        "id": "downtown",
+        "name": "وسط البلد",
+        "type": "area"
+      },
+      {
+        "id": "tahrir",
+        "name": "ميدان التحرير",
+        "type": "landmark"
+      },
+      {
+        "id": "garden-city",
+        "name": "جاردن سيتي",
+        "type": "area"
+      },
+      {
+        "id": "monira",
+        "name": "المنيرة",
+        "type": "area"
+      },
+      {
+        "id": "sayeda-zeinab",
+        "name": "السيدة زينب (حي)",
+        "type": "area"
+      },
+      {
+        "id": "sayeda-aisha",
+        "name": "السيدة عائشة (ميدان)",
+        "type": "landmark"
+      },
+      {
+        "id": "fostat",
+        "name": "الفسطاط (مصر القديمة)",
+        "type": "area"
+      },
+      {
+        "id": "manial",
+        "name": "المنيل (جزيرة الروضة)",
+        "type": "area"
+      },
+      {
+        "id": "masr-qdima",
+        "name": "مصر القديمة (حي)",
+        "type": "area"
+      },
+      {
+        "id": "zamalek",
+        "name": "الزمالك (حي)",
+        "type": "area"
+      },
+      {
+        "id": "boulaq",
+        "name": "بولاق أبو العلا",
+        "type": "area"
+      },
+      {
+        "id": "ramsees-area",
+        "name": "رمسيس (ميدان)",
+        "type": "area"
+      },
+      {
+        "id": "abdeen",
+        "name": "عابدين (حي)",
+        "type": "area"
+      },
+      {
+        "id": "mosky",
+        "name": "الموسكي",
+        "type": "area"
+      },
+      {
+        "id": "azbakeya",
+        "name": "الأزبكية",
+        "type": "area"
+      },
+      {
+        "id": "darb-el-ahmar",
+        "name": "الدرب الأحمر",
+        "type": "area"
+      },
+      {
+        "id": "shubra",
+        "name": "شبرا (حي)",
+        "type": "area"
+      },
+      {
+        "id": "sahil",
+        "name": "الساحل",
+        "type": "area"
+      },
+      {
+        "id": "rod-el-farag",
+        "name": "روض الفرج (حي)",
+        "type": "area"
+      },
+      {
+        "id": "khalafawy",
+        "name": "الخلفاوي",
+        "type": "area"
+      },
+      {
+        "id": "zaytoun",
+        "name": "الزيتون (حي)",
+        "type": "area"
+      },
+      {
+        "id": "haddayek-qoba",
+        "name": "حدائق القبة (حي)",
+        "type": "area"
+      },
+      {
+        "id": "waraq",
+        "name": "الوايلي (حي)",
+        "type": "area"
+      },
+      {
+        "id": "el-sharabiya",
+        "name": "الشرابية (حي)",
+        "type": "area"
+      },
+      {
+        "id": "el-demerdash",
+        "name": "الدمرداش",
+        "type": "area"
+      },
+      {
+        "id": "menshiet-el-sadr",
+        "name": "منشية الصدر",
+        "type": "area"
+      },
+      {
+        "id": "abbasiya-area",
+        "name": "العباسية (حي)",
+        "type": "area"
+      },
+      {
+        "id": "sarayat",
+        "name": "مدينة الأمل (الشرابية)",
+        "type": "area"
+      },
+      {
+        "id": "mancheyat-nasser",
+        "name": "منشأة ناصر",
+        "type": "area"
+      },
+      {
+        "id": "maadi",
+        "name": "المعادي (حي)",
+        "type": "area"
+      },
+      {
+        "id": "zahrat-maadi",
+        "name": "زهراء المعادي",
+        "type": "area"
+      },
+      {
+        "id": "dar-salam",
+        "name": "دار السلام (حي)",
+        "type": "area"
+      },
+      {
+        "id": "basatin",
+        "name": "البساتين (حي)",
+        "type": "area"
+      },
+      {
+        "id": "torah",
+        "name": "طرة (حي)",
+        "type": "area"
+      },
+      {
+        "id": "el-tebin",
+        "name": "التبين",
+        "type": "area"
+      },
+      {
+        "id": "helwan-city",
+        "name": "حلوان (مدينة وحي)",
+        "type": "city"
+      },
+      {
+        "id": "15may-city",
+        "name": "مدينة 15 مايو",
+        "type": "city"
+      },
+      {
+        "id": "maasara",
+        "name": "المعصرة (حي)",
+        "type": "area"
+      },
+      {
+        "id": "landmark-cairo-tower",
+        "name": "برج القاهرة",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-egyptian-museum",
+        "name": "المتحف المصري (بالتحرير)",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-citadel",
+        "name": "قلعة صلاح الدين الأيوبي",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-azhar-park",
+        "name": "حديقة الأزهر",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-khan-khalili",
+        "name": "خان الخليلي",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-mosque-hussein",
+        "name": "جامع الحسين",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-muizz",
+        "name": "شارع المعز لدين الله الفاطمي",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-nil-corniche",
+        "name": "كورنيش النيل",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-citystars",
+        "name": "سيتي ستارز",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-cairofestival",
+        "name": "كايرو فستيفال سيتي",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-point90",
+        "name": "بوينت 90",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-mall-maadi",
+        "name": "معادي سيتي سنتر",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-airport",
+        "name": "مطار القاهرة الدولي",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-azbakeya",
+        "name": "مسرح وسور الأزبكية",
+        "type": "landmark"
+      },
+      {
+        "id": "landmark-sultan-hassan-mosque",
+        "name": "جامع ومدرسة السلطان حسن",
+        "type": "landmark"
+      },
+      {
+        "id": "stop-microbus-ataba",
+        "name": "موقف ميكروباص العتبة",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-ramses",
+        "name": "موقف ميكروباص رمسيس",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-abdeen",
+        "name": "موقف ميكروباص عابدين",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-boulak",
+        "name": "موقف ميكروباص بولاق",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-shubra",
+        "name": "موقف ميكروباص شبرا",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-marg",
+        "name": "موقف ميكروباص المرج",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-ainshams",
+        "name": "موقف ميكروباص عين شمس",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-mataria",
+        "name": "موقف ميكروباص المطرية",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-salam",
+        "name": "موقف ميكروباص السلام",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-moneeb",
+        "name": "موقف ميكروباص المنيب",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-faisal",
+        "name": "موقف ميكروباص فيصل",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-haram",
+        "name": "موقف ميكروباص الهرم",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-mokatam",
+        "name": "موقف ميكروباص المقطم",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-maadi",
+        "name": "موقف ميكروباص المعادي",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-dar-salam",
+        "name": "موقف ميكروباص دار السلام",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-basatin",
+        "name": "موقف ميكروباص البساتين",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-helwan",
+        "name": "موقف ميكروباص حلوان",
+        "type": "transport"
+      },
+      {
+        "id": "stop-microbus-tergoman",
+        "name": "موقف ميكروباص الترجمان",
+        "type": "transport"
+      },
+      {
+        "id": "street-teseen-north",
+        "name": "شارع التسعين الشمالي (التجمع)",
+        "type": "street"
+      },
+      {
+        "id": "street-teseen-south",
+        "name": "شارع التسعين الجنوبي (التجمع)",
+        "type": "street"
+      },
+      {
+        "id": "street-gesr-elsuez",
+        "name": "شارع جسر السويس",
+        "type": "street"
+      },
+      {
+        "id": "area-new-cairo",
+        "name": "القاهرة الجديدة",
+        "type": "city"
+      },
+      {
+        "id": "area-el-rehab",
+        "name": "مدينة الرحاب",
+        "type": "area"
+      },
+      {
+        "id": "area-madinaty",
+        "name": "مدينة مدينتي",
+        "type": "area"
+      },
+      {
+        "id": "area-el-lotus",
+        "name": "حي اللوتس",
+        "type": "area"
+      },
+      {
+        "id": "area-el-narjes",
+        "name": "حي النرجس",
+        "type": "area"
+      },
+      {
+        "id": "area-el-zaher",
+        "name": "حي الظاهر",
+        "type": "area"
+      },
+      {
+        "id": "univ-cairo",
+        "name": "جامعة القاهرة",
+        "type": "university"
+      },
+      {
+        "id": "univ-ainshams",
+        "name": "جامعة عين شمس",
+        "type": "university"
+      },
+      {
+        "id": "univ-auc",
+        "name": "الجامعة الأمريكية بالقاهرة",
+        "type": "university"
+      },
+      {
+        "id": "univ-guc",
+        "name": "الجامعة الألمانية بالقاهرة",
+        "type": "university"
+      },
+      {
+        "id": "univ-alazhar",
+        "name": "جامعة الأزهر",
+        "type": "university"
+      },
+      {
+        "id": "univ-future",
+        "name": "جامعة المستقبل في مصر",
+        "type": "university"
+      },
+      {
+        "id": "univ-bue",
+        "name": "الجامعة البريطانية في مصر",
+        "type": "university"
+      },
+      {
+        "id": "hospital-kasr-elainy",
+        "name": "مستشفى قصر العيني التعليمي الجديد",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-cleopatra",
+        "name": "مستشفى كليوباترا",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-salam-int",
+        "name": "مستشفى السلام الدولي",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-nasser-inst",
+        "name": "معهد ناصر للبحوث والعلاج",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-57357",
+        "name": "مستشفى 57357 لعلاج سرطان الأطفال",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-sgh",
+        "name": "المستشفى السعودي الألماني القاهرة",
+        "type": "hospital"
+      },
+      {
+        "id": "hospital-galaa-military",
+        "name": "مجمع الجلاء الطبي للقوات المسلحة",
+        "type": "hospital"
+      },
+      
+      {
+        "id": "area-mohadesin",
+        "name": "المهندسين",
+        "type": "area"
+      },
+      {
+        "id": "area-agouza",
+        "name": "العجوزة",
+        "type": "area"
+      },
+      {
+        "id": "area-faisal",
+        "name": "فيصل",
+        "type": "area"
+      },
+      {
+        "id": "street-shehab",
+        "name": "شارع شهاب (المهندسين)",
+        "type": "street"
+      },
+      {
+        "id": "street-nil-giza",
+        "name": "شارع النيل (الجيزة)",
+        "type": "street"
+      },
+      {
+        "id": "square-giza",
+        "name": "ميدان الجيزة",
+        "type": "landmark"
+      },
+      {
+        "id": "square-lebanon",
+        "name": "ميدان لبنان (المهندسين)",
+        "type": "landmark"
+      },
+      {
+        "id": "square-ismaileya",
+        "name": "ميدان الإسماعيلية (مصر الجديدة)",
+        "type": "landmark"
+      },
+      {
+        "id": "square-elsaat",
+        "name": "ميدان الساعة (مدينة نصر)",
+        "type": "landmark"
+      },
+      {
+        "id": "market-elkhayamia",
+        "name": "شارع الخيامية",
+        "type": "landmark"
+      },
+      {
+        "id": "market-elghouriya",
+        "name": "منطقة الغورية (تجاري)",
+        "type": "area"
+      },
+      {
+        "id": "market-sayaraat",
+        "name": "سوق السيارات (مدينة نصر)",
+        "type": "landmark"
+      }
+    ]
+  }
