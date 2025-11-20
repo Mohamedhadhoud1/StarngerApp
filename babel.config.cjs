@@ -1,3 +1,4 @@
+// babel.config.mjs
 module.exports = function (api) {
   api.cache(true);
   return {

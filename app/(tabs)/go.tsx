@@ -3,7 +3,7 @@ import { Audio } from "expo-av";
 import { useRouter } from "expo-router";
 import React, { useEffect, useRef, useState } from "react";
 import { FlatList, Image, Text, TextInput, TouchableOpacity, View } from "react-native";
-import areasData from "../../assets/areas/areas.json";
+import areasData from "../../assets/data/areas.json";
 
 type Place = {
   id: string;
